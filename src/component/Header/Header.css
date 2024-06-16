@@ -20,7 +20,6 @@
     font-weight: var(--font-medium);
 }
 
-
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);
@@ -52,6 +51,11 @@
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
+}
+
+/* change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ----------------- breakpoints ------------------- */

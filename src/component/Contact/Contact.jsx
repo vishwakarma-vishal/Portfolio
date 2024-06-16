@@ -23,10 +23,12 @@ export default function Contact() {
                     console.log('FAILED...', error.text);
                 },
             );
+        // add toaster for confirmation
+        e.target.reset();
     };
 
     return (
-        <div className="contact containter section">
+        <div className="contact containter section" id='contact'>
             <h3 className="section__title">Get in touch</h3>
             <span className="section__subtitle">Contact Me</span>
 

@@ -8,20 +8,27 @@ import Services from './component/Services/Services';
 import Qualification from './component/Qualification/Qualification';
 import Testimonials from './component/Testimonials/Testimonials';
 import Contact from './component/Contact/Contact';
+import Footer from './component/Footer/Footer';
+import ScrollUp from './component/ScrollUP/ScrollUp';
 
 function App() {
 
   return (
     <div>
-      <Header/>
-      
-      <Home/>
-      <About/>
-      <Skills/>
-      <Services/>
-      <Qualification/>
-      <Testimonials/>
-      <Contact/>
+      <Header />
+
+      <main className='main'>
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Qualification />
+        <Testimonials />
+        <Contact />
+      </main>
+
+      <Footer />
+      <ScrollUp />
     </div>
   )
 }
