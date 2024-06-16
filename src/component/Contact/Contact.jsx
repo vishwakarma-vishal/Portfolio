@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import "./Contact.css";
 
 export default function Contact() {
@@ -62,7 +62,7 @@ export default function Contact() {
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
-                            <h3 clasName="contact__card-title">Email</h3>
+                            <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">vishal.vishwakarma.dev@gmail.com</span>
 
                             <a href="mailto:vishal.vishwakarma.dev@gmail.com" className="contact__button">
@@ -123,7 +123,7 @@ export default function Contact() {
                             ></textarea>
                         </div>
 
-                        <button className="button button--flex">
+                        <button type='submit' value="Send" className="button button--flex">
                             Send Message
                             <svg
                                 class="button__icon"

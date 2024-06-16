@@ -10,7 +10,6 @@ import Testimonials from './component/Testimonials/Testimonials';
 import Contact from './component/Contact/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
