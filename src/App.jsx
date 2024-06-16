@@ -7,6 +7,7 @@ import Skills from './component/Skills/Skills';
 import Services from './component/Services/Services';
 import Qualification from './component/Qualification/Qualification';
 import Testimonials from './component/Testimonials/Testimonials';
+import Contact from './component/Contact/Contact';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,12 +15,14 @@ function App() {
   return (
     <div>
       <Header/>
+      
       <Home/>
       <About/>
       <Skills/>
       <Services/>
       <Qualification/>
       <Testimonials/>
+      <Contact/>
     </div>
   )
 }
