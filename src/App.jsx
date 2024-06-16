@@ -6,6 +6,7 @@ import About from './component/About/About';
 import Skills from './component/Skills/Skills';
 import Services from './component/Services/Services';
 import Qualification from './component/Qualification/Qualification';
+import Testimonials from './component/Testimonials/Testimonials';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Services/>
       <Qualification/>
+      <Testimonials/>
     </div>
   )
 }
