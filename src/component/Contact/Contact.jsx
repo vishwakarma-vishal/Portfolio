@@ -4,7 +4,11 @@ import "./Contact.css";
 
 export default function Contact() {
     const form = useRef();
+    const emailAddress = import.meta.env.VITE_EMAIL_ADDRESS;
+    const linkedinUsername = import.meta.env.VITE_LINKEDIN_USERNAME;
+    const twitterUsername = import.meta.env.VITE_TWITTER_USERNAME;
 
+    //to send the mail
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -38,25 +42,28 @@ export default function Contact() {
 
                     <div className="contact__info">
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact__card-icon"></i>
+                            <i class="uil uil-linkedin-alt contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">7470546275</span>
+                            <h3 className="contact__card-title">Linkedin</h3>
+                            <span className="contact__card-data">@vis***01</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=7470546275&text=Hello, more information!" className="contact__button">
-                                Write me{" "}
+                            <a href={`https://www.linkedin.com/in/${linkedinUsername}`} className="contact__button" target="_blank" rel="noopener noreferrer">
+                                Connect with me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
+                            <svg className="contact__card-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 512 512" ><g clip-path="url(#clip0_84_15698)"><rect width="512" height="512" rx="60"></rect><path fill="var(--title-color)" d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"></path></g><defs><clipPath id="clip0_84_15698"><rect width="512" height="512" fill="#fff"></rect></clipPath></defs></svg>
 
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">abc</span>
+                            <h3 className="contact__card-title">Twitter</h3>
+                            <span className="contact__card-data">@vi***de</span>
 
-                            <a href="" className="contact__button">
-                                Write me{" "}
+                            <a
+                                href={`https://twitter.com/${twitterUsername}`} className="contact__button"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Follow me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -65,9 +72,9 @@ export default function Contact() {
                             <i className="bx bx-mail-send contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">vishal.vishwakarma.dev@gmail.com</span>
+                            <span className="contact__card-data">vi*****@gmail.com</span>
 
-                            <a href="mailto:vishal.vishwakarma.dev@gmail.com" className="contact__button">
+                            <a href={`mailto:${emailAddress}`} className="contact__button">
                                 Write me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -89,6 +96,7 @@ export default function Contact() {
                                 type="text"
                                 id="name"
                                 name="name"
+                                required
                                 className="contact__form-input"
                                 placeholder="Enter your name"
                             />
@@ -104,6 +112,7 @@ export default function Contact() {
                                 type="email"
                                 id="email"
                                 name="email"
+                                required
                                 className="contact__form-input"
                                 placeholder="Enter your email"
                             />
@@ -120,6 +129,7 @@ export default function Contact() {
                                 id="project"
                                 cols="30"
                                 rows="10"
+                                required
                                 className="contact__form-input"
                                 placeholder="Write your project"
                             ></textarea>

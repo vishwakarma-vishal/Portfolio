@@ -28,3 +28,6 @@ Work:
 Testimonial:
 -- add testimonial component with data component that store all the info regarding the testimony.
 -- implement swiper js for swipping between testimony component
+
+Contact:
+-- created contact compoent with the feature of linkdin, twitter, email contact and also integrate email.js for directly writting email in the component itself.
