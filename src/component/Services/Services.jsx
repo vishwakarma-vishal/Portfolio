@@ -13,11 +13,11 @@ export default function Services() {
             <h3 className="section__title">Services</h3>
             <span className="section__subtitle">What I offer</span>
 
-            <div className="services__container container grid">
+            <div className="services__container container">
                 <div className="services__content">
                     <div>
                         <i className='uil uil-web-grid services__icon'></i>
-                        <h3 className="services__title">Product <br /> Designer</h3>
+                        <h3 className="services__title">Responsive <br /> Web Design</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(1)}>
@@ -29,34 +29,34 @@ export default function Services() {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Product Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                            <h3 className="services__modal-title">Responsive Web Design</h3>
+                            <p className="services__modal-description">Fresher with hands-on project experience, dedicated to delivering quality work.</p>
 
-                            <ul className="services__modal-services grid">
+                            <ul className="services__modal-services ">
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info"> Building intuitive and responsive user interfaces.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">Creating and implementing web page layouts.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create UX elment interactions.</p>
+                                    <p className="services__modal-info">Designing UX element interactions.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Strengthening branding through appealing web design.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Developing mockups and prototypes for web products.</p>
                                 </li>
 
                             </ul>
@@ -81,33 +81,33 @@ export default function Services() {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">UI/UX Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                            <p className="services__modal-description">Fresher with hands-on project experience, dedicated to delivering quality work.</p>
 
-                            <ul className="services__modal-services grid">
+                            <ul className="services__modal-services">
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">Creating intuitive interfaces.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info">Designing and implementing web layouts.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create UX elment interactions.</p>
+                                    <p className="services__modal-info">Crafting interactive elements.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Positioning company branding through design.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Developing visual prototypes to showcase web products.</p>
                                 </li>
 
                             </ul>
@@ -118,8 +118,8 @@ export default function Services() {
 
                 <div className="services__content">
                     <div>
-                        <i className='uil uil-edit services__icon'></i>
-                        <h3 className="services__title">Visual <br /> Designer</h3>
+                    <i class="uil uil-database services__icon"></i>
+                        <h3 className="services__title">API and Firebase <br /> Integration</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(3)}>
@@ -131,34 +131,34 @@ export default function Services() {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">Visual Designer</h3>
-                            <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                            <h3 className="services__modal-title">API and Firebase Integration</h3>
+                            <p className="services__modal-description">Fresher with hands-on project experience, dedicated to delivering quality work.</p>
 
-                            <ul className="services__modal-services grid">
+                            <ul className="services__modal-services">
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I develop the user interface.</p>
+                                    <p className="services__modal-info">Connecting frontend and backend data exchange.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Web page development.</p>
+                                    <p className="services__modal-info"> Using Firebase for synchronized data management.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I create UX elment interactions.</p>
+                                    <p className="services__modal-info">Setting up secure user access with Firebase.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">I position your company brand.</p>
+                                    <p className="services__modal-info">Automating tasks with Firebase Cloud Functions.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                    <p className="services__modal-info">Extending application functionality with external services.</p>
                                 </li>
 
                             </ul>

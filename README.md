@@ -11,4 +11,10 @@ Home:
 -- Create Home component with sub-component data, social and scroll down
 
 About:
---created about section with info sub-component
+--created about component with info sub-component
+
+Skills:
+--created skills component with backend and frontend sub-component
+
+Services:
+-- create service section to showcase services with a mini component that show on the entire page content blur
