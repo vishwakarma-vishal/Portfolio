@@ -8,6 +8,7 @@
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
     margin-bottom: var(--mb-3);
+    text-align: center;
 }
 
 .testimonial__img {
@@ -19,7 +20,13 @@
 .testimonial__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-25)
+    margin-bottom: var(--mb-0-1)
+}
+
+.testimonial__category{
+    font-size: var(--small-font-size);
+    display: inline-block;
+    margin-bottom: var(--mb-0-5)
 }
 
 .testimonial__description {

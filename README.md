@@ -21,3 +21,10 @@ Services:
 
 Qualification:
 --create qualification section with two sub component education and experience
+
+Work:
+-- add work component that acts like portfolio and it has works, data, workitems as subcomponent.
+
+Testimonial:
+-- add testimonial component with data component that store all the info regarding the testimony.
+-- implement swiper js for swipping between testimony component

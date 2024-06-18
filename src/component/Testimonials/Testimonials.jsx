@@ -38,12 +38,13 @@ export default function () {
                 }}
                 modules={[Pagination]}
             >
-                {Data.map(({ id, image, title, description }) => {
+                {Data.map(({ id, image, title,relation, description }) => {
                     return (
                         <SwiperSlide key={id} className="testimonial__card" >
                             <img src={image} alt="" className='testimonial__img' />
 
                             <h3 className="testimonial__name">{title}</h3>
+                            <span className="testimonial__category">({relation})</span>
                             <p className="testimonial__description">{description}</p>
                         </SwiperSlide>
                     )
