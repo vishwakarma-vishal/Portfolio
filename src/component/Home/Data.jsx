@@ -1,5 +1,3 @@
-
-
 export default function Data() {
 
     return (
@@ -57,7 +55,7 @@ export default function Data() {
                 </svg>
             </h1>
             <h2 className="home__subtitle">Web Developer</h2>
-            <p className="home__description">I am a web developer, I creates visually appealing website using React JS.</p>
+            <p className="home__description">I am a web developer, I creates visually appealing website using Tailwind and React JS.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello

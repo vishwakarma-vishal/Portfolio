@@ -2,9 +2,11 @@ Steps to create this portfolio:
 
 --boxicons and iconscount for icons 
 
-1. First created a header component with toggle feature to show and hide navgation bar with the help of useState hook.
-2. Create Home components,
+Build the component one by one:
 
+Header:
+--First created a header component with toggle feature to show and hide navigation bar with the help of useState hook.
 
-add swiper.js 
-add email.js
+Home:
+
+-- Create Home component with sub-component data, social and scroll down
