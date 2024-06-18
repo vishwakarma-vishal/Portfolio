@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import './App.css'
 import Header from "./component/Header/Header.jsx";
 import Home from './component/Home/Home';
 import About from './component/About/About';

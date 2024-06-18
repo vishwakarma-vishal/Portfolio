@@ -11,8 +11,9 @@
 }
 
 .about__info {
+    display: grid;
     grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    gap: 1rem;
     margin-bottom:var(--mb-2);
 
 }
@@ -78,6 +79,7 @@
 @media screen and (max-width: 576px) {
     .about__info {
         grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
     }
 
     .about__description{
@@ -90,8 +92,4 @@
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    /* .about__description{
-        padding: 0;
-    } */
 }

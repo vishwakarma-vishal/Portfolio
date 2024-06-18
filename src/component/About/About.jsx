@@ -1,7 +1,7 @@
 import './About.css';
 import Info from './Info';
 import AboutImg from '../../assets/about.jpg';
-import CV from '../../assets/John-Cv.pdf';
+import CV from '../../assets/Vishal-CV.pdf';
 
 export default function About() {
     return (
