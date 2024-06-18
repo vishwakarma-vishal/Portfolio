@@ -18,3 +18,6 @@ Skills:
 
 Services:
 -- create service section to showcase services with a mini component that show on the entire page content blur
+
+Qualification:
+--create qualification section with two sub component education and experience

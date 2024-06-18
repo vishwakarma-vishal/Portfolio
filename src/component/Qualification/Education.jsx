@@ -43,7 +43,7 @@ export default function Education() {
 
             <div className="qualification__data">
                 <div>
-                    <h3 className="qualification__title">12th</h3>
+                    <h3 className="qualification__title">12th (Maths)</h3>
                     <span className="qualification__subtitle">MP Board</span>
                     <div className="qualification__calendar">
                         <i className="uil uil-calendar-alt"></i>2017 - 2018
