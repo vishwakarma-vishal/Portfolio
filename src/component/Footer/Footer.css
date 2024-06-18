@@ -18,7 +18,7 @@
     color: var(--title-color);
 }
 
-.footer__link{
+.footer__link {
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -51,6 +51,10 @@
     display: inline-flex;
 }
 
+.footer__social-link svg {
+    margin-top: 0.2rem;
+}
+
 .footer__social-link:hover {
     background-color: var(--title-color-dark);
 }
@@ -62,7 +66,6 @@
     color: var(--title-color);
     font-size: var(--smaller-font-size);
 }
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
