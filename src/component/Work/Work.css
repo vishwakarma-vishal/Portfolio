@@ -89,12 +89,21 @@
     margin-bottom: var(--mb-0-25);
 }
 
+.link_container{
+    display: flex;
+    justify-content: space-between;
+}
 .work__button {
     font-size: var(--small-font-size);
     color: var(--text-color);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    width: fit-content;
+}
+
+.work__button:nth-of-type(2){
+font-size: 1.3rem;
 }
 
 .work__button-icon {

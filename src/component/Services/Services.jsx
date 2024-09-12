@@ -119,7 +119,7 @@ export default function Services() {
                 <div className="services__content">
                     <div>
                     <i class="uil uil-database services__icon"></i>
-                        <h3 className="services__title">API and Firebase <br /> Integration</h3>
+                        <h3 className="services__title">Backend Development</h3>
                     </div>
 
                     <span className="services__button" onClick={() => toggleTab(3)}>
@@ -131,34 +131,34 @@ export default function Services() {
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                            <h3 className="services__modal-title">API and Firebase Integration</h3>
+                            <h3 className="services__modal-title">Backend Development</h3>
                             <p className="services__modal-description">Fresher with hands-on project experience, dedicated to delivering quality work.</p>
 
                             <ul className="services__modal-services">
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Connecting frontend and backend data exchange.</p>
+                                    <p className="services__modal-info">Crafting RESTful APIs for seamless data exchange.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info"> Using Firebase for synchronized data management.</p>
+                                    <p className="services__modal-info">Utilizing MongoDB for efficient data management.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Setting up secure user access with Firebase.</p>
+                                    <p className="services__modal-info">Implementing JWT for secure user authentication.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Automating tasks with Firebase Cloud Functions.</p>
+                                    <p className="services__modal-info">Developing scalable server-side logic with Node.js and Express.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Extending application functionality with external services.</p>
+                                    <p className="services__modal-info">Securing passwords with bcrypt for enhanced security.</p>
                                 </li>
 
                             </ul>

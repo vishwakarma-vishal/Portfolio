@@ -1,6 +1,6 @@
 import './About.css';
 import Info from './Info';
-import AboutImg from '../../assets/about.jpg';
+import AboutImg from '../../assets/profile.jpg';
 import CV from '../../assets/Vishal-CV.pdf';
 
 export default function About() {
@@ -15,7 +15,9 @@ export default function About() {
                 <div className='about__data'>
                     <Info />
 
-                    <p className='about__description'>I am a frontend developer who creates clean, responsive, and user-friendly websites. Check out my projects to see how I turn ideas into engaging web experiences.</p>
+                    <p className='about__description'>
+                        I’m a full stack developer specializing in the MERN stack, creating dynamic and responsive web applications. Explore my projects to see how I integrate React, Node.js, and MongoDB to deliver seamless and engaging user experiences.
+                    </p>
 
                     <a download='' href={CV} alt='resume file' className='button button--flex'>
                         Downlaod CV

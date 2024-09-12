@@ -54,8 +54,8 @@ export default function Data() {
                     ></path>
                 </svg>
             </h1>
-            <h2 className="home__subtitle">Web Developer</h2>
-            <p className="home__description">I am a web developer, I creates visually appealing website using Tailwind and React JS.</p>
+            <h2 className="home__subtitle">Full Stack Developer</h2>
+            <p className="home__description">Crafting dynamic web applications with expertise in the MERN stack, React, and Tailwind CSS.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello
