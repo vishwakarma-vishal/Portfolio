@@ -50,6 +50,20 @@
     --z-modal: 1000;
 }
 
+/* Dark Mode */
+.dark {
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 85%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --text-color: hsl(var(--hue), var(--sat), 75%);
+    --body-color: hsl(var(--hue), var(--sat), 10%);
+    --container-color: hsl(var(--hue), var(--sat), 15%);
+
+    /* Optional: Adjust other properties if necessary */
+    --hover-color: hsl(var(--hue), var(--sat), 40%);
+}
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
     :root {
@@ -83,6 +97,7 @@ textarea {
 }
 
 body {
+    
     background-color: var(--body-color);
     color: var(--text-color);
 }
